@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: royalblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+.main_container {
+  width: 80vw;
+  height: 80vh;
+  background: #4cc9f0;
+}
+
+.container_horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  height: 50%;
+  background: #b5179e;
+}
+
+.item {
+  /* assets\StockSnap_TTOM5R7SFF.jpg */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: auto;
+  gap: 15px;
+  background: royalblue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.352);
+  padding-bottom: 10px;
+}
+
+.item:hover {
+  background: #ffffff;
+  transition: 0.4s;
+  transform: translate(0px, -5px);
+  color: black;
+}
+
+button {
+  font-family: "Michroma", sans-serif;
+  width: 60px;
+  height: 20px;
+  color: aliceblue;
+  border-radius: 6px;
+  width: 4rem;
+  height: 1.5rem;
+  margin-top: 1rem;
+  background: rgb(218, 143, 12);
+  border: 1px solid transparent;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container_horizontal_2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  height: 50%;
+  background: #4cc9f0;
+  border-radius: 6%;
+}
+/* .item_2{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    gap: 15px;
+    background: royalblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.352);  
+}
+.item_2:hover{
+    background: #ffffff;
+    transition: 0.6s;
+    transform: translate(0px, -5px); 
+    color: black; 
+} */
+p {
+  font-family: "Michroma", sans-serif;
+  padding-left: 15px;
+}
+img {
+  /* width: 250px;
+    height: 150px;
+    object-fit:scale-down;
+    margin-top: 10px;
+    border-radius: 6%; */
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  margin-top: 10px;
+  border-radius: 6px;
+}
